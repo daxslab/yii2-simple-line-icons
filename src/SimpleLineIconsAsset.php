@@ -1,6 +1,6 @@
 <?php
 
-namespace mimicreative\simplelineicons;
+namespace mimicreative\assets;
 
 class SimpleLineIconsAsset extends \yii\web\AssetBundle {
   
