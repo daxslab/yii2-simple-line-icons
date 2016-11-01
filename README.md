@@ -38,5 +38,4 @@ public $depends = [
 ];
 ```
 
-By default, this will install respond js file at the head.
 
