@@ -1,12 +1,12 @@
 {
-  "name": "mimicreative/yii2-simple-line-icons",
+  "name": "daxslab/yii2-simple-line-icons",
   "description": "Simple Line Icons Asset Bundle for Yii2",
   "license": "MIT License",
   "authors": [
     {
-      "name": "MF Haqqi",
-      "email": "me@haqqi.net",
-      "homepage": "http://haqqi.net",
+      "name": "Gabriel A. López",
+      "email": "glpz@daxslab.com",
+      "homepage": "www.daxslab.com",
       "role": "Creator"
     }
   ],
@@ -15,18 +15,12 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "yiisoft/yii2": ">=2.0.0",
-    "bower-asset/simple-line-icons": "2.*"
-  },
-  "extra": {
-    "asset-installer-paths": {
-      "npm-asset-library": "vendor/npm",
-      "bower-asset-library": "vendor/bower"
-    }
+    "yiisoft/yii2": "~2.0.6",
+    "npm-asset/simple-line-icons": "~2.4.0"
   },
   "autoload": {
     "psr-4": {
-      "mimicreative\\assets\\": "src/"
+      "daxslab\\assets\\": "src/"
     }
   }
 }

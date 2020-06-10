@@ -9,7 +9,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Add to the require section of your `composer.json` file:
 
 ```
-"mimicreative/yii2-simple-line-icons": "~1.0"
+"daxslab/yii2-simple-line-icons": "~1.0"
 ```
 
 And run in terminal
@@ -25,7 +25,7 @@ Use as the asset bundle in Yii2 View files.
 
 ```
 // write this in your view file or layout
-\mimicreative\assets\SimpleLineIconsAsset::register($this);
+\daxslab\assets\SimpleLineIconsAsset::register($this);
 ```
 
 Or maybe you prefer to include it in your asset dependency.
@@ -33,7 +33,7 @@ Or maybe you prefer to include it in your asset dependency.
 ```
 public $depends = [
   // ...
-  'mimicreative\assets\SimpleLineIconsAsset',
+  'daxslab\assets\SimpleLineIconsAsset',
   // ...
 ];
 ```
